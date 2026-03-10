@@ -77,7 +77,6 @@ export default function Hero() {
           </div>
 
           <div className="card-number">03</div>
-<br />
           <h3>CBSE Curriculum</h3>
           <p>There are many variations of passages</p>
         </div>
