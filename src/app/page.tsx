@@ -6,6 +6,7 @@ import Infrastructure from "@/components/sections/infrastructure"
 import WhyChooseUs from '@/components/sections/WhyChooseUs'
 import Gallery from '@/components/sections/GallerySection'
 import Admission from '@/components/sections/Admission'
+import Form from '@/components/sections/Form'
 import Footer from '@/components/layout/Footer'
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <WhyChooseUs/>
       <Gallery/>
       <Admission/>
+      <Form/>
       <Footer/>
     </main>
   );
