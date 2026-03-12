@@ -5,6 +5,8 @@ import About from "@/components/sections/About"
 import Infrastructure from "@/components/sections/infrastructure"
 import WhyChooseUs from '@/components/sections/WhyChooseUs'
 import Gallery from '@/components/sections/GallerySection'
+import Admission from '@/components/sections/Admission'
+import Footer from '@/components/layout/Footer'
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Infrastructure/>
       <WhyChooseUs/>
       <Gallery/>
+      <Admission/>
+      <Footer/>
     </main>
   );
 }
