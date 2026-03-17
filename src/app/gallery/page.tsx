@@ -4,8 +4,7 @@ import Form from "@/components/sections/Form";
 import Footer from "@/components/layout/Footer";
 
 const Gallery = () => {
-  const [selectedImg, setSelectedImg] = useState(null);
-
+const [selectedImg, setSelectedImg] = useState<string | null>(null);
   const images = [
     "/gallery1.avif",
     "/gallery2.png",
