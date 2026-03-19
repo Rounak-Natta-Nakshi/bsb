@@ -1,6 +1,7 @@
 import "./globals.css";
 import Topbar from "@/components/layout/Topbar";
 import Navbar from "@/components/layout/Navbar";
+import BackToTop from "@/components/layout/BackToTop";
 
 export const metadata = {
   title: "TBS",
@@ -18,6 +19,8 @@ export default function RootLayout({
         <Topbar />
         <Navbar />
         {children}
+        <BackToTop />
+        
       </body>
     </html>
   );
